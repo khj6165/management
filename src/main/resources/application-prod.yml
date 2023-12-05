@@ -1,0 +1,10 @@
+server:
+  port: 8282
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/prod_db
+    username: username_prod
+    password: password_prod
+logging:
+  level:
+    root: WARN

@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/stg_db
+    username: username_stg
+    password: password_stg
+logging:
+  level:
+    root: INFO

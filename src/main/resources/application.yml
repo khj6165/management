@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+management:
+  server:
+    port: 8080
+  endpoints:
+    web:
+      bash-path: /actuator
+      exposure:
+        include: "health,info,metrics,env"

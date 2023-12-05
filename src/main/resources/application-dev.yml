@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dev_db
+    username: username_dev
+    password: password_dev
+logging:
+  level:
+    root: DEBUG
+
+management:
+  server:
+    port: 8080
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,metrics,env"
