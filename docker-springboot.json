@@ -35,7 +35,7 @@
     "family": "docker-springboot",
     "executionRoleArn": "arn:aws:iam::417771670414:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": "latest",
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
